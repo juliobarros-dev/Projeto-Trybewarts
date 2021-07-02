@@ -1,0 +1,167 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+#topDiv {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px 10px;
+}
+
+main img {
+  height: 650px;
+}
+
+.header img {
+  width: 70px;
+}
+
+.header .trybewarts-login {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10px;
+}
+
+.header form input {
+  margin: 0 10px;
+  height: 25px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+select {
+  margin-left: 43px;
+}
+
+.header form button {
+  margin: 0 10px 0 0;
+}
+
+.header #trybewarts-header-title {
+  color: black;
+  animation-name: trybewarts-anim;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes trybewarts-anim {
+
+  0% { color: red;}
+
+  25% { color: blue;}
+
+  50% { color: green;}
+
+  75% { color: yellow;}
+
+  100% { color: red;}
+}
+
+main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+main #evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .name-lastName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+main #trybewarts-logo {
+  display: flex;
+}
+
+main #trybewarts-logo #trybewarts-forms-logo {
+  flex-direction: row;
+  align-content: flex-end;
+  padding: 10px;
+}
+
+hr {
+  width: 600px;
+  background-color: rgb(50, 167, 145);
+  border-bottom: 3px;
+  border-color: grey;
+  height: 1px;
+}
+
+.userOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h3 {
+  margin: 0;
+}
+
+#userRate {
+  margin-bottom: 30px;
+}
+
+#label-rate , #label-content {
+  font-weight: 900;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  background-color: darkblue;
+  color: aliceblue;
+  font-weight: 900;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#userTextArea {
+  resize: none;
+}
+
+textarea {
+  margin: 10px;
+}
+
+#submit-btn {
+  margin: 30px;
+}
+
+.preSubmit {
+  visibility: visible;
+  margin: 50px 200px;
+}
+
+.preSubmit #input-name {
+  margin-right: 50px;
+}
+
+.name-lastName #input-email {
+  margin-right: 50px;
+}
+
+.name-lastName label {
+  margin-right: 20px;
+}
